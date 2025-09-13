@@ -150,9 +150,14 @@ const Footer = () => {
         }
 
         .footer-logo {
-          height: 60px;
+          height: 4rem;
           width: auto;
-          margin-bottom: 1rem;
+          margin: 0 auto 1rem;
+          transition: transform 0.3s ease;
+        }
+        
+        .footer-logo:hover {
+          transform: scale(1.05);
         }
 
         .footer-tagline {
