@@ -32,7 +32,7 @@ const Footer = () => {
             <img 
               src="/assets/logo-divinesco.png" 
               alt="DivineS&CO Logo" 
-              className="h-16 w-auto footer-logo mx-auto"
+              className="h-16 mx-auto"
               onError={(e) => {
                 e.target.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80"><text x="10" y="45" font-family="Poppins,sans-serif" font-size="24" font-weight="700" fill="%237A2BF2">DivineS%26CO</text></svg>';
               }}
