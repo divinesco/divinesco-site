@@ -95,7 +95,7 @@ const Header = () => {
         }
 
         .header-logo {
-          height: 50px;
+          height: 3rem;
           width: auto;
           transition: transform 0.3s ease;
         }
