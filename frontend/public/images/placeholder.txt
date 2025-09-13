@@ -1,0 +1,7 @@
+This folder will contain the DivineS&CO logo and signature images.
+
+Required images:
+- logo-divinesandco.png (Logo for header and footer)
+- signature-electrique-contact.png (Jessica ROSE's electronic signature)
+
+The images provided by the user will be placed here and referenced in the components.
