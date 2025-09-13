@@ -30,9 +30,9 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="footer-section">
             <img 
-              src="/images/logo-divinesandco.png" 
+              src="/assets/logo-divinesco.png" 
               alt="DivineS&CO Logo" 
-              className="footer-logo"
+              className="h-16 w-auto footer-logo mx-auto"
               onError={(e) => {
                 e.target.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80"><text x="10" y="45" font-family="Poppins,sans-serif" font-size="24" font-weight="700" fill="%237A2BF2">DivineS%26CO</text></svg>';
               }}
