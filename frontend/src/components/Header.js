@@ -94,13 +94,11 @@ const Header = () => {
           text-decoration: none;
         }
 
-        .header-logo {
-          height: 3rem;
-          width: auto;
+        .logo-link img {
           transition: transform 0.3s ease;
         }
 
-        .header-logo:hover {
+        .logo-link img:hover {
           transform: scale(1.05);
         }
 
