@@ -149,14 +149,11 @@ const Footer = () => {
           margin-bottom: 1rem;
         }
 
-        .footer-logo {
-          height: 4rem;
-          width: auto;
-          margin: 0 auto 1rem;
+        .footer-section img {
           transition: transform 0.3s ease;
         }
         
-        .footer-logo:hover {
+        .footer-section img:hover {
           transform: scale(1.05);
         }
 
